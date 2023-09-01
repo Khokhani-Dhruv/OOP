@@ -59,7 +59,7 @@ int Date::compareTo(const Date& other)  {
     if (month > other.month) return 1;
     if (month < other.month) return -1;
     if (date < other.date) return -1;
-    return 1;
+    return 0;
 
 }
 
